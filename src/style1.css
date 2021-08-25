@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css?family=Lato|Supermercado+One");
 
 /* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
@@ -9,6 +10,8 @@ nav {
 #main {
   width: 900px;
   margin: 10px auto;
+}
+#all{
   background-image:url("https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/estilizando-menu-restaurante-sprint-2-RichardBSilva/main/src/img/map-bg.jpg?token=AVKCRB2YLOBPTGZLANMEUP3BF4JD6");
   background-size:contain;
 }
