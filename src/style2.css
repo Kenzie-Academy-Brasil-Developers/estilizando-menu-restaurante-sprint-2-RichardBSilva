@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald");
 
 /* Use the 'Oswald' font family at 14px throughout the body of the document. */
@@ -61,8 +62,10 @@ dd::after {
 }
 
 /* Right-align the text of the address/footer */
-#adress{
+#adress1{
+ float:right;
   text-align:right;
+  margin-right:180px;
 }
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
 #dessert{
