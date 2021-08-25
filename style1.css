@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Supermercado+One");
+
+/* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
+nav {
+  font-family: Lato;
+  font-size: 10px;
+}
+
+#main {
+  width: 900px;
+  margin: 10px auto;
+  background-image:url("https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/estilizando-menu-restaurante-sprint-2-RichardBSilva/main/src/img/map-bg.jpg?token=AVKCRB2YLOBPTGZLANMEUP3BF4JD6");
+  background-size:contain;
+}
+/* Use the 'Supermercado One' font at 45px (colored #5d4037) for the restaurant name. */
+
+/* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
+#restaurantname {
+  font-size:45px;
+  font-family:Supermercado One;
+  color:#5d4037;
+}
+
+#menu {
+  column-rule-style:dashed;
+  column-rule-width:2px;
+  column-rule-color:rosybrown;
+  columns: 400px;
+  column-gap: 100px;
+  font-family:lato;
+  font-size:18px;
+}
+section {
+  margin-bottom: 50px;
+  font-variant:small-caps;
+}
+#starters1{
+  color:#6d4c41;
+}
+#crispy{
+  color:black;
+}
+#soup{
+   color:#6d4c41;
+}
+#entrees1{
+   color:#6d4c41;
+}
+#dessert{
+   color:#6d4c41;
+}
+
+/* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */
+h2 {
+  margin: 0;
+}
+
+/* Make the name of each menu item appear in bold in a 20px size. */
+
+dd {
+  margin: 0 0 12px 0;
+  display: flex;
+}
+
+.details {
+  order: 1;
+  color:black;
+}
+
+/* Show the price of each item in a large font, in the color named 'firebrick' */
+.price {
+  order: 2;
+  padding-left: 10px;
+  color:firebrick;
+}
+
+/* Draw a 2px dashed rosybrown border around the address/footer */
+address {
+  padding: 10px;
+  border:2px dashed rosybrown;
+}
