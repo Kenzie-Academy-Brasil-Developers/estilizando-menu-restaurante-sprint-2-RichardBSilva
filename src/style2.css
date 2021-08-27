@@ -62,7 +62,7 @@ dd::after {
 }
 
 /* Right-align the text of the address/footer */
-#adress1{
+.adress1{
  float:right;
   text-align:right;
   margin-right:180px;
