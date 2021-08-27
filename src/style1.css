@@ -4,7 +4,11 @@
 /* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
 nav {
   font-family: Lato;
-  font-size: 10px;
+  font-size: 18px;
+}
+.lato{
+  font-family:lato;
+  font-size:18px;
 }
 
 #main {
@@ -30,8 +34,6 @@ nav {
   column-rule-color:rosybrown;
   columns: 400px;
   column-gap: 100px;
-  font-family:lato;
-  font-size:18px;
 }
 section {
   margin-bottom: 50px;
